@@ -1,0 +1,50 @@
+@media screen and (max-width:700px) {
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: 0.5rem;
+        margin: 0.25rem;
+        justify-content: center;
+        align-items: center;   
+    }
+  
+    .heading {
+        line-height: 1.2;
+        text-align: center;
+        font-size: small;
+    }
+    
+    .heading p{
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .piture img {
+        margin: 0.5rem;
+        mix-blend-mode: multiply;
+        object-fit: cover;
+        align-items: center;
+    }
+
+    #stat {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        font-family: var(--heading-font);
+        justify-self: center;
+    }
+
+    .stat-heading {
+        align-self: center;
+    }
+
+    .stat p{
+        font-weight: 200;
+        font-size: 0.7rem;
+    }
+    
+    .attribution {
+        display: none;
+    }
+}
